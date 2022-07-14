@@ -11,6 +11,12 @@ Python 3.10.0
 ```
 
 ## How To Run
+You must change current directory to the `qualifier` directory. You can do so
+in this command (assuming you are currently in the project directory).
+```
+cd qualifier
+```
+Then run:
 ```bash
 python3 -m unittest tests.py
 ```
